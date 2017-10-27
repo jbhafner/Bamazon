@@ -1,0 +1,30 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "Amazon-like storefront using Node and MySQL",
+  "main": "bamazon.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbhafner/Bamazon.git"
+  },
+  "keywords": [
+    "Node",
+    "MySQL",
+    "Amazon",
+    "Storefront"
+  ],
+  "author": "Brian Hafner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jbhafner/Bamazon/issues"
+  },
+  "homepage": "https://github.com/jbhafner/Bamazon#readme",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "inquirer": "^3.3.0",
+    "mysql": "^2.15.0"
+  }
+}
