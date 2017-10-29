@@ -90,14 +90,17 @@ function purchasePrompt() {
 						console.log(`Units: ${orderQuantity} | Price: ${dbPrice} | ` + `Total Amount: ${(orderQuantity * dbPrice).toFixed(2)}`.black.bgMagenta);
 
 						console.log(`Quantity in Stock is now ${dbQuantity-orderQuantity}`);
+						connection.end();
 						return;
 					}) // closes connection.query 2
 				}
+				// connection.end();
 			}) // closes connection.query 1
 
 		})
 		// connection.end();
 } //end function purchasePrompt
+// connection.end();
 
 // ============ START APP ============= //
 process.stdout.write('\033c');  // clear the screen
