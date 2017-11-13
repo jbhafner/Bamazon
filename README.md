@@ -6,15 +6,15 @@ Amazon-like storefront using Node and MySQL
 
 Welcome Screen: Choose to View Products for Sale (All Products), View Low Inventory < 50 units, Add to Inventory (existing inventory), and Add New Inventory (a new product not currently in the db).
 
-<img src="images/bc_1_main">
+<img src="images/bc_1_main.png">
 
 Next screen – I chose “AudioBooks” – it returns list of Audiobooks.  I chose item 36, with a quantity of 80.  There are only 75 in stock, so it returns a message of “insufficient quantity”.
 
-<img src="images/bc_2">
+<img src="images/bc_2.png">
 
 If there are enough in stock to fill the order, the system will generate a line indicating the product id, product name, number of units, price and total amount.  It will then update the stock_quantity in the products table and display the new quantity.
 
-<img src="images/bc_3">
+<img src="images/bc_3.png">
 
 # Bamazon – Manager Module
 bamazonManager.js
