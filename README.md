@@ -1,8 +1,8 @@
-# Bamazon – Manager Module
+# Bamazon – Customer Module
 bamazonManager.js
 Amazon-like storefront using Node and MySQL
 
-*Manager Module*
+*Customer Module*
 
 Welcome Screen: Choose to View Products for Sale (All Products), View Low Inventory < 50 units, Add to Inventory (existing inventory), and Add New Inventory (a new product not currently in the db).
 
