@@ -144,7 +144,7 @@ function addInventory() {
 				var dbPrice = results[0].price;
 				var dbQuantity = results[0].stock_quantity;
 				connection.query('UPDATE products SET stock_quantity = stock_quantity +' + orderQuantity +' where id =' + itemNum, function(error, results) { // connection 2
-					console.log(`\nYou added ${orderQuantity} items to Id: ${itemNum}`.inverse);
+					console.log(`\nYou added ${orderQuantity} items toId: ${itemNum}`.inverse);
 					console.log(`Product: ${dbProdName}`);
 					console.log(`Quantity in Stock is now ${dbQuantity+orderQuantity}`);
 					// connection.end();
